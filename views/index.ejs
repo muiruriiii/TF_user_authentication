@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Our App</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #d04a02 0%, #ff7e3a 100%);
+        }
+        .splash-container {
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.95);
+            padding: 3rem;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            max-width: 400px;
+            width: 90%;
+        }
+        h1 {
+            color: #d04a02;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+        p {
+            color: #666;
+            font-weight: 300;
+            margin-bottom: 2rem;
+        }
+        .get-started-btn {
+            display: inline-block;
+            background-color: #d04a02;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 400;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(208, 74, 2, 0.2), 0 1px 3px rgba(0, 0, 0, 0.08);
+        }
+        .get-started-btn:hover {
+            background-color: #ff5e0e;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <div class="splash-container">
+        <h2>Terror Financing Snipper</h2>
+        <a href="/signup" class="get-started-btn">Get Started</a>
+    </div>
+</body>
+</html>
